@@ -1,0 +1,612 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:background="@color/cardview_light_background">
+
+
+    <RelativeLayout
+        android:id="@+id/textLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <TextView
+            android:id="@+id/tvCurentScore"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvColorLines"
+            android:layout_alignParentLeft="true"
+            android:text="Score: 0"
+            android:textColor="#0099FF"
+            android:textSize="28sp" />
+
+
+        <ImageView
+            android:id="@+id/imageviewleftball"
+            android:layout_width="38dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageviewcenterball"
+            android:src="@drawable/purpleball" />
+
+        <ImageView
+            android:id="@+id/imageviewcenterball"
+            android:layout_width="38dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/imageviewrightball"
+            android:src="@drawable/yellowball" />
+
+        <ImageView
+            android:id="@+id/imageviewrightball"
+            android:layout_width="38dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/redball" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:id="@+id/tablelayout"
+        android:layout_width="match_parent"
+        android:layout_height="391dp"
+        android:layout_below="@+id/relativeLayout"
+        android:stretchColumns="1">
+
+        <TableRow
+            android:id="@+id/tablerow1"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:id="@+id/button1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+
+            <com.iam2kabhishek.lines.GameButton
+                android:id="@+id/button2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="@drawable/cell" />
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        android:text="restart"
+        app:backgroundTint="#0099FF" />
+</LinearLayout>
