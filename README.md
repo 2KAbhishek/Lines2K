@@ -20,7 +20,7 @@
 <a href="https://github.com/2KAbhishek/Lines2K/pulse">
 <img alt="Last Updated" src="https://img.shields.io/github/last-commit/2kabhishek/Lines2K?style=flat&color=e06c75&label="> </a>
 
-<h3>Short sweet headline with 🎇🎉</h3>
+<h3>The magic of Lines98, recreated 🕹️🟢</h3>
 
 <figure>
   <img src= "images/screenshot.jpg" alt="Lines2K Demo">
@@ -32,17 +32,20 @@
 
 ## What is this
 
-Lines2K is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Lines2K is a recreation of the classic Lines 98 game for Android.
+
+The goal of the player is to create vertical or horizontal lines of balls with the same colour, while the board keeps filling up with random balls.
 
 ## Inspiration
 
-Lines2K was inspired by `<reason/idea>`.
+- Wanted to play this game on my phone and didn't find any ad free alternatives
+- Had made [Kothello](https://github.com/2kabhishek/Kothello) sometime back, wanted to try my hands on another classic.
 
 ## Prerequisites
 
 Before you begin, ensure you have met the following requirements:
 
-- You have installed the latest version of `<coding_language/dependency/requirement_1>`
+- You have installed the latest version of `Android Studio`
 
 ## Getting Lines2K
 
@@ -51,51 +54,26 @@ To get Lines2K, follow these steps:
 ```bash
 git clone https://github.com/2kabhishek/Lines2K
 cd Lines2K
-<install_command>
 ```
 
-## Using Lines2K
-
-```bash
-USAGE:
-    command [FLAGS] [OPTIONS]
-
-FLAGS:
-    -h, --help              Prints help information.
-
-OPTIONS:
-    -o, --option <value>    Option description.
-    Options are: a, b. [default: a]
-
-Example:
-
-
-```
+Open it up on Android Studio and then simply build it for your device or enjoy it on the emulator.
 
 ## How it was built
 
-Lines2K was built using `<tech/library>`
+Lines2K was built using `Android Studio, Java and OSS`
 
 ## Challenges faced
 
-While building Lines2K the main challenges were `<issue/difficulty>`
+- Building out the logic for the path checker was a bit tricky but googling helped.
+- Faced some issues with gradle initially.
 
 ## What I learned
 
-While building Lines2K I `<learned/accomplished>` about `<learning/accomplishment>`
+- Rediscovered this old gem and got to learn about it's internals.
 
 ## What's next
 
-Planning to add `<feature/module>`.
-
-### To-Do
-
-- [x] Setup repo
-- [ ] Think real hard
-- [ ] Start typing
-- [ ] Change me
-- [ ] Update README
-- [ ] Finish it
+You tell me, PR's welcome.
 
 Hit the ⭐ button if you found this useful.
 
